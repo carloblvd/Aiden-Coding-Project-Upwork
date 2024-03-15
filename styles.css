@@ -234,3 +234,35 @@ COURSEWORK
 .coursework__reflection {
   width: 50%;
 }
+
+/* 
+
+ARTIFACTS
+
+*/
+
+.artifacts__content--wrapper ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 48px 0;
+}
+
+.artifact__content {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.artifacts__content--wrapper a {
+  text-align: center;
+}
+
+.artifact__img--wrapper {
+  width: 30%;
+  margin: 0;
+}
+
+.artifact__img {
+  width: 100%;
+}
