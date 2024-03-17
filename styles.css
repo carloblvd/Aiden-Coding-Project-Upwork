@@ -350,3 +350,23 @@ ANIMATION
   font-size: 32px;
   animation: 500ms fadeIn 2000ms ease forwards;
 }
+
+/* 
+
+CREATIVE
+
+*/
+
+.creative__content--wrapper a {
+}
+
+.creative__img--wrapper {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.creative__img--wrapper img {
+  width: 40%;
+}
