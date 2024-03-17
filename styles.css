@@ -7,8 +7,8 @@ body {
   font-size: 16px;
   line-height: 24px;
   background-image: url("/assets/space_background.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
+
+  background-repeat: repeat;
 }
 
 a {
