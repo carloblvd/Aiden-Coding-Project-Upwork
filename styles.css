@@ -301,6 +301,12 @@ CONTACT
   padding: 12px;
 }
 
+.thank-you__message {
+  height: 50vh;
+  text-align: center;
+  font-size: 32px;
+}
+
 /* 
 
 ANIMATION
@@ -356,9 +362,6 @@ ANIMATION
 CREATIVE
 
 */
-
-.creative__content--wrapper a {
-}
 
 .creative__img--wrapper {
   margin: 0;
