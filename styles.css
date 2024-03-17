@@ -6,6 +6,9 @@ body {
   color: #3f3f3f;
   font-size: 16px;
   line-height: 24px;
+  background-image: url("/assets/space_background.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 a {
@@ -171,6 +174,9 @@ h6 {
 }
 .clear {
   clear: both;
+}
+#content {
+  min-height: 50vh;
 }
 
 /* 
