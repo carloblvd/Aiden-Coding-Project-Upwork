@@ -337,9 +337,15 @@ ANIMATION
 
 .animation__wrapper p {
   position: absolute;
-  top: 40%;
-  left: 25%;
-  transform: translate(-50%, -50%);
+  top: 0;
+  opacity: 0;
+  font-size: 32px;
+  animation: 500ms fadeIn 2000ms ease forwards;
+}
+
+.animation__wrapper audio {
+  position: absolute;
+  top: 60%;
   opacity: 0;
   font-size: 32px;
   animation: 500ms fadeIn 2000ms ease forwards;
