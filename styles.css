@@ -279,8 +279,15 @@ MODULE
 
 */
 
+.module__assignments {
+  width: 80%;
+}
+
 .module__assignments li {
   list-style: none;
+  margin: 24px;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* 
