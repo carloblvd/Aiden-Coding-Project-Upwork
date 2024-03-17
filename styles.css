@@ -266,3 +266,81 @@ ARTIFACTS
 .artifact__img {
   width: 100%;
 }
+
+/*
+
+MODULE 
+
+*/
+
+.module__assignments li {
+  list-style: none;
+}
+
+/* 
+
+CONTACT
+
+*/
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+}
+
+.contact__form input {
+  margin-bottom: 24px;
+  width: 30%;
+}
+
+.contact__btn {
+  align-self: center;
+  margin: 24px;
+  width: 80px;
+  padding: 12px;
+}
+
+/* 
+
+ANIMATION
+
+*/
+
+@keyframes leftToRight {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 70%;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.animation__wrapper {
+  position: relative;
+}
+
+.animation {
+  position: relative;
+  animation: 800ms leftToRight 1s ease forwards;
+}
+
+.animation__wrapper p {
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  font-size: 32px;
+  animation: 500ms fadeIn 2000ms ease forwards;
+}
